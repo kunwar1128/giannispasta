@@ -11,7 +11,8 @@
 
 body{
     background: url("../images/header_image.jpg") center / cover no-repeat fixed ;
-    height:100vh;}
+    /*height:100vh;*/
+}
 
 /* Title Section */
 #title {
@@ -53,7 +54,7 @@ body{
 
 
 .middle {
-    background-color: white;
+    background-color: yellow;
     height: 100vh;
 }
 
