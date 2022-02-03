@@ -10,13 +10,13 @@
 } */
 
 body{
-    
+    background: url("../images/header_image.jpg") center / cover no-repeat fixed ;
     height:100vh;}
 
 /* Title Section */
 #title {
     /* background-color: #FF80ED; */
-    background: url("../images/header_image.jpg") center / cover no-repeat fixed ;
+    
     height: 100vh;
 }
 
