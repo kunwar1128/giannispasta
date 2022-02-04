@@ -14,7 +14,7 @@
     height:100vh;
 } */
 
-body:before {
+/* body:before {
     content: "";
     display: block;
     position: fixed;
@@ -28,12 +28,14 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+  } */
 
 /* Title Section */
 #title {
-    /* background-color: #FF80ED; */
-    
+    background-image: url("../images/header_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -70,7 +72,7 @@ body:before {
 
 
 .middle {
-    background-color: yellow;
+    background-color: white;
     height: 100vh;
 }
 
