@@ -28,63 +28,60 @@
 </head>
 
 <body>
-    <div>
-        <!-- <img src="images/header_image.jpg" class="img-fluid header_image"> -->
-        <section id="title">
-            <div class="container">
-
-                <!-- Nav Bar  -->
-
-                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                    <a class="navbar-brand" href="#index.html">
-                        <img class="logo-image img-fluid" src="images/logo.png" alt="Gianni's">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <!-- <span class="navbar-toggler-icon"></span> -->
-                        <i onclick="myFunction(this)" class="nav-button fas fa-bars fa-lg" aria-hidden="true"></i>
+    <section id="title">
+        <nav class="navbar navbar-light fixed-top">
+            <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <a class="navbar-brand" href="#"><img class="logo-image img-fluid" src="images/giannis-logo.png" alt="Gianni's"></a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#">Contact Us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Menu</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Catering</a>
+                            </li>
                         </ul>
                     </div>
-                </nav>
-
+                </div>
             </div>
-        </section>
+        </nav>
+    </section>
 
-        <section class="middle">
-            <p>just testing</p>
-            <p>another line</p>
-        </section>
+    <section class="middle">
+        <p>just testing</p>
+        <p>another line</p>
+    </section>
 
-        <section class="footer">
-            <p>it's just a footer</p>
-            <p>there has been a</p>
-        </section>
+    <section class="footer">
+        <p>it's just a footer</p>
+        <p>there has been a</p>
+    </section>
 
 
 
-        <script>
-            function myFunction(x) {
-                x.classList.toggle("fa-grip-lines-vertical");
-            }
-        </script>
+    <!-- <script>
+        function myFunction(x) {
+            x.classList.toggle("fa-grip-lines-vertical");
+        }
+    </script> -->
 
-    </div>
 </body>
 
 </html>
