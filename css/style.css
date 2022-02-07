@@ -1,11 +1,20 @@
 /* Body */
 
+.test011{
+	position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  border: 3px solid #73AD21;
+  z-index: -5;
+}
+
 /* Title Section */
 #title {
-    background-image: url("../images/header_image.jpg");
+    /* background-image: url("../images/header_image.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     height: 100vh;
 }
 
@@ -70,7 +79,7 @@
 }
 
 #footer {
-    background-color: red;
+    background-color: blue;
     height: 100vh;
 }
 
