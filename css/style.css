@@ -5,6 +5,7 @@
   bottom: 0;
   right: 0;
   width: 100vw;
+height: 100vh;
   border: 3px solid #73AD21;
   z-index: -5;
 }
@@ -79,7 +80,7 @@
 }
 
 #footer {
-    background-color: blue;
+    background-color: yellow;
     height: 100vh;
 }
 
