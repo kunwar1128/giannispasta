@@ -34,20 +34,40 @@
     text-align: center;
 }
 
-.offcanvas-start{
-    width:320px;
+.hamburger{
+    z-index: 1046;
+}
+
+.offcanvas{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width:100vw;
+    transition-duration: .7s;
+}
+
+.offcanvasOnField{
+    background-color: white;
+}
+
+.offcanvas-body{
+    padding: 75px 0;
+}
+
+.offcanvasOffField{
+    background-color: rgba(0, 0, 0, 0);
+    height: 100vh;
 }
 
 
 
 
 
-.middle {
+#middle {
     background-color: white;
     height: 100vh;
 }
 
-.footer {
+#footer {
     background-color: red;
     height: 100vh;
 }
@@ -58,6 +78,7 @@
     .navbar {
         margin: 1.6em 0;
     }
+
 }
 
 @media (min-width: 992px) {
