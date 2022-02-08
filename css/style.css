@@ -4,10 +4,14 @@
 	position: fixed;
   bottom: 0;
   right: 0;
+	left: 0;
+  top: 0;
   width: 100vw;
 height: 100vh;
-  border: 3px solid #73AD21;
+/*   border: 3px solid #73AD21; */
   z-index: -5;
+	margin: 0;
+  padding: 0;
 }
 
 /* Title Section */
@@ -80,7 +84,7 @@ height: 100vh;
 }
 
 #footer {
-    background-color: yellow;
+    background-color: blue;
     height: 100vh;
 }
 
