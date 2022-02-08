@@ -12,6 +12,7 @@ height: 100vh;
   z-index: -5;
 	margin: 0;
   padding: 0;
+	object-fit: cover;
 }
 
 /* Title Section */
@@ -84,7 +85,7 @@ height: 100vh;
 }
 
 #footer {
-    background-color: blue;
+    background-color: yellow;
     height: 100vh;
 }
 
