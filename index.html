@@ -11,6 +11,11 @@
     <!-- Favicon -->
     <link rel="icon" href="favicon/favicon_oval3.png">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+
     <!-- CSS Stylesheets -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -29,71 +34,85 @@
 </head>
 
 <body>
-    
-        <section id="title">
-            <img class="background_image_1" src="images/header_image.jpg" alt="Italian Trulli">
-            <nav class="navbar navbar-light fixed-top">
-                <div class="container-fluid">
-                    <button id="offcanvasClose" class="hamburger hamburger--collapse" type="button"
-                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <span class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                        </span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img class="logo-image img-fluid" src="images/giannis-logo.png"
-                            alt="Gianni's"></a>
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="offcanvasOnField col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-9">
-                                    <div class="offcanvas-body">
-                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                            <li class="nav-item" data-bs-toggle="offcanvas"
-                                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                                                <a onclick="myFunction()" class="nav-link active" aria-current="page"
-                                                    href="#">Home</a>
-                                            </li>
-                                            <li class="nav-item" data-bs-toggle="offcanvas"
-                                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                                                <a onclick="myFunction()" class="nav-link" href="#middle">About Us</a>
-                                            </li>
-                                            <li class="nav-item" data-bs-toggle="offcanvas"
-                                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                                                <a onclick="myFunction()" class="nav-link" href="#footer">Contact Us</a>
-                                            </li>
-                                            <li class="nav-item" data-bs-toggle="offcanvas"
-                                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                                                <a onclick="myFunction()" class="nav-link" href="#">Menu</a>
-                                            </li>
-                                            <li class="nav-item" data-bs-toggle="offcanvas"
-                                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                                                <a onclick="myFunction()" class="nav-link" href="#">Catering</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+
+    <section id="title">
+        <img class="background_image_1" src="images/background_images/wallpaper-1.jpg" alt="Italian Trulli">
+        <nav class="navbar navbar-light fixed-top">
+            <div class="container-fluid">
+                <button id="offcanvasClose" class="hamburger hamburger--collapse" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="logo-image img-fluid" src="images/giannis-logo.png"
+                        alt="Gianni's"></a>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="offcanvasOnField col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-9">
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item" data-bs-toggle="offcanvas"
+                                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                            <a onclick="myFunction()" class="nav-link active" aria-current="page"
+                                                href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item" data-bs-toggle="offcanvas"
+                                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                            <a onclick="myFunction()" class="nav-link" href="#middle">The Gastronomy</a>
+                                        </li>
+                                        <li class="nav-item" data-bs-toggle="offcanvas"
+                                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                            <a onclick="myFunction()" class="nav-link" href="#footer">Contact Us</a>
+                                        </li>
+                                        <li class="nav-item" data-bs-toggle="offcanvas"
+                                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                            <a onclick="myFunction()" class="nav-link" href="#">Menu</a>
+                                        </li>
+                                        <li class="nav-item" data-bs-toggle="offcanvas"
+                                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                            <a onclick="myFunction()" class="nav-link" href="#">Catering</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div onclick="myFunction()"
-                                    class="offcanvasOffField col-xxl-10 col-xl-9 col-lg-8 col-md-7 col-3"
-                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                                    aria-controls="offcanvasNavbar"></div>
                             </div>
+                            <div onclick="myFunction()"
+                                class="offcanvasOffField col-xxl-10 col-xl-9 col-lg-8 col-md-7 col-3"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                                aria-controls="offcanvasNavbar"></div>
                         </div>
-
                     </div>
+
                 </div>
-            </nav>
-        </section>
+            </div>
+        </nav>
+    </section>
 
-        <section id="middle">
-            <p>just testing again</p>
-            <p>another line</p>
-        </section>
+    <section id="middle">
+        <picture>
+            <source class="background_image_2" media="(min-width: 1200px)" srcset="images/background_images/wallpaper-2.jpg">
+            <!-- <source class="background_image_2" media="(min-width: 480px)" srcset="images/background_images/wallpaper-4.jpg"> -->
+            <img class="background_image_2" src="images/background_images/wallpaper-2-2.jpg" alt="IfItDoesntMatchAnyMedia">
+        </picture>
+        <!-- <img class="background_image_2" src="images/background_images/wallpaper-2.jpg" alt="Italian Food"> -->
+        <div class="container">
+            <div class="row gastronomy1 align-items-center">
+                <div class="gastronomy col">
+                    <div class="gastronomy-heading">THE GASTRONOMY</div>
+                    <div class="gastronomy-text">“Cooking is an observation-based process that you can’t do if you’re so completely focused on a recipe.”</div>
+                    <p class="gastronomy-footer">– Alton Brown</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
-        <section id="footer">
-            <p>it's just a footer</p>
-            <p>there has been a</p>
-        </section>
+    <section id="footer">
+        <p>it's just a footer ok</p>
+        <p>there has been a</p>
+    </section>
 
 
     <script>
