@@ -99,7 +99,7 @@
 .gastronomy1{
     text-align: center;
     height: 100vh;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .gastronomy-heading{
@@ -128,7 +128,7 @@
 /* Footer Section */
 
 #footer {
-    background-color: yellow;
+    background-color: red;
     height: 100vh;
     position: sticky;
     top: 0;
