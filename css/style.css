@@ -9,6 +9,9 @@
 /* Title Section */
 #title {
     height: 100vh;
+}
+
+.header-content{
     position: sticky;
     top: 0;
 }
@@ -122,7 +125,7 @@
 /* Footer Section */
 
 #footer {
-    background-color: blue;
+    background-color: red;
     height: 100vh;
     position: sticky;
     top: 0;
