@@ -1,34 +1,33 @@
 /* Body */
 
-.background_image_1{
-	position: fixed;
-  bottom: 0;
-  right: 0;
-	left: 0;
-  top: 0;
-  width: 100vw;
-height: 100vh;
-/*   border: 3px solid #73AD21; */
-  z-index: -5;
-	margin: 0;
-  padding: 0;
-	object-fit: cover;
+@font-face {
+    font-family: Chronicle;
+    src: url("Chronicle\ Display\ Italic.otf");
 }
+
 
 /* Title Section */
 #title {
-    /* background-image: url("../images/header_image.jpg");
-    background-repeat: no-repeat;
+    /* background-image: url("../images/header_image.jpg"); */
+    /* background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
     height: 100vh;
 }
 
-/* Navbar */
-
-/* .navbar {
-    margin: 1.6em 0;
-} */
+.background_image_1 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
 
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0);
@@ -39,55 +38,104 @@ height: 100vh;
     width: 8em;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-left: auto;
     margin-right: auto;
     padding-right: 2em;
 }
 
-.navbar-nav{
+.navbar-nav {
     text-align: center;
 }
 
-.hamburger{
+.hamburger {
     z-index: 1046;
 }
 
-.offcanvas{
+.offcanvas {
     background-color: rgba(0, 0, 0, 0);
     border: none;
-    width:100vw;
+    width: 100vw;
     transition-duration: .7s;
 }
 
-.offcanvasOnField{
+.offcanvasOnField {
     background-color: white;
 }
 
-.offcanvas-body{
+.offcanvas-body {
     padding: 75px 0;
 }
 
-.offcanvasOffField{
+.offcanvasOffField {
     background-color: rgba(0, 0, 0, 0);
     height: 100vh;
 }
 
-#offcanvasClose:focus{
-	outline:0;
+#offcanvasClose:focus {
+    outline: 0;
 }
 
 
+
+/* Middle Section */
 
 #middle {
-    background-color: white;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.background_image_2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -5;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.gastronomy1{
+    text-align: center;
     height: 100vh;
 }
 
-#footer {
-    background-color: blue;
-    height: 100vh;
+.gastronomy-heading{
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
+
+.gastronomy-text{
+    font-size: 40px;
+    font-family: Chronicle;
+    font-weight: bolder;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gastronomy-footer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* Footer Section */
+
+#footer {
+    background-color: yellow;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+
+
+
 
 @media (min-width: 768px) {
 
@@ -117,4 +165,17 @@ height: 100vh;
     .logo-image {
         width: 5em;
     }
+
+    /* Middle Section */
+
+    .gastronomy-heading{
+        font-size: 14px;
+    }
+
+    .gastronomy-text{
+        font-size: 20px;
+        max-width: 390px;
+    }
+
+    .gastronomy-footer{font-weight: bold;}
 }
