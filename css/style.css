@@ -32,14 +32,21 @@
     right: 0;
     width: 100%;
     margin: 0;
+    /* color: white; */
 }
 
 .welcome-text{
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Kurale', serif;
     font-size: 70px;
+    font-style: italic;
 }
 
 .welcome-text2{
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Kurale', serif;
     font-size: 28px;
+    font-style: italic;
 }
 
 .navbar-light .navbar-toggler {
@@ -141,7 +148,7 @@
 /* Footer Section */
 
 #footer {
-    background-color: yellow;
+    background-color: red;
     height: 100vh;
     position: sticky;
     top: 0;
@@ -169,6 +176,12 @@
 @media (max-width: 991px) {
 
     /* Navbar */
+
+    /* Header Welcome */
+
+    .welcome > .col{
+        padding-bottom: 30%;
+    }
 
 }
 
