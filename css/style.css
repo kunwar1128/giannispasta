@@ -8,22 +8,34 @@
 
 /* Title Section */
 #title {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .header-content{
-    position: sticky;
-    top: 0;
+    height: 100vh;
 }
 
 .background_image_1 {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     z-index: -5;
     margin: 0;
     padding: 0;
     object-fit: cover;
+}
+
+.welcome{
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.welcome-text{
+
 }
 
 .navbar-light .navbar-toggler {
