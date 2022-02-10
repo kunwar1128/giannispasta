@@ -35,7 +35,11 @@
 }
 
 .welcome-text{
+    font-size: 70px;
+}
 
+.welcome-text2{
+    font-size: 28px;
 }
 
 .navbar-light .navbar-toggler {
@@ -137,7 +141,7 @@
 /* Footer Section */
 
 #footer {
-    background-color: red;
+    background-color: yellow;
     height: 100vh;
     position: sticky;
     top: 0;
@@ -174,6 +178,16 @@
 
     .logo-image {
         width: 5em;
+    }
+
+    /* Header Welcome */
+
+    .welcome-text{
+        font-size: 32px;
+    }
+
+    .welcome-text2{
+        font-size: 13px;
     }
 
     /* Middle Section */
