@@ -49,7 +49,7 @@
     background-color: rgba(0, 0, 0, 0);
     border: none;
     width: 100vw;
-    transition-duration: .6s;
+    transition-duration: .4s;
     transform: translateX(-320px);/*to slide out offcanvas 320px*/ 
 }
 
@@ -189,7 +189,7 @@
 /* Footer Section */
 
 #footer {
-    background-color: gray;
+    background-color: green;
     height: 100vh;
     position: sticky;
     top: 0;
