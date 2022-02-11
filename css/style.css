@@ -79,8 +79,14 @@
     transition-duration: .7s;
 }
 
+.offcanvas-entire-field {
+    display: flex;
+    height: 100vh;
+  }
+
 .offcanvasOnField {
     background-color: white;
+    flex: 0 0 320px; /* do not grow, do not shrink, start at 320px */
 }
 
 .offcanvas-body {
@@ -89,7 +95,7 @@
 
 .offcanvasOffField {
     background-color: rgba(0, 0, 0, 0);
-    height: 100vh;
+    flex: 1;  /* grow */
 }
 
 #offcanvasClose:focus {
@@ -148,7 +154,7 @@
 /* Footer Section */
 
 #footer {
-    background-color: yellow;
+    background-color: gray;
     height: 100vh;
     position: sticky;
     top: 0;
