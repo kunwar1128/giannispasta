@@ -148,7 +148,7 @@
 /* Footer Section */
 
 #footer {
-    background-color: red;
+    background-color: yellow;
     height: 100vh;
     position: sticky;
     top: 0;
@@ -180,7 +180,7 @@
     /* Header Welcome */
 
     .welcome > .col{
-        padding-bottom: 30%;
+        padding-bottom: 25vh;
     }
 
 }
