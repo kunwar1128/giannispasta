@@ -5,49 +5,17 @@
     src: url("Chronicle\ Display\ Italic.otf");
 }
 
+/* ::-webkit-scrollbar-track{
+    z-index: 1000047;
+} */
+
 
 /* Title Section */
 #title {
     /* height: 100vh; */
 }
 
-.header-content{
-    height: 100vh;
-}
-
-.background_image_1 {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    z-index: -5;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-}
-
-.welcome{
-    height: 100vh;
-    text-align: center;
-    position: fixed;
-    right: 0;
-    width: 100%;
-    margin: 0;
-    /* color: white; */
-}
-
-.welcome-text{
-    /* font-family: 'Libre Baskerville', serif; */
-    font-family: 'Kurale', serif;
-    font-size: 70px;
-    font-style: italic;
-}
-
-.welcome-text2{
-    /* font-family: 'Libre Baskerville', serif; */
-    font-family: 'Kurale', serif;
-    font-size: 28px;
-    font-style: italic;
-}
+/* Navbar */
 
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0);
@@ -72,11 +40,16 @@
     z-index: 1046;
 }
 
+
+
+/* Offcanvas */
+
 .offcanvas {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     width: 100vw;
-    transition-duration: .7s;
+    transition-duration: .6s;
+    transform: translateX(-320px);/*to slide out offcanvas 320px*/ 
 }
 
 .offcanvas-entire-field {
@@ -101,6 +74,56 @@
 #offcanvasClose:focus {
     outline: 0;
 }
+
+/* Hamburger Button does's highlight after clicking */
+.slide-opened body {
+    overflow: hidden;
+}
+
+
+
+/* Header Section: Welcome */
+
+.header-content{
+    height: 100vh;
+}
+
+.background_image_1 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -5;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.welcome{
+    position: fixed;
+    height: 100vh;
+    text-align: center;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    /* color: white; */
+}
+
+.welcome-text{
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Kurale', serif;
+    font-size: 70px;
+    font-style: italic;
+}
+
+.welcome-text2{
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Kurale', serif;
+    font-size: 28px;
+    font-style: italic;
+}
+
+
+
 
 
 
