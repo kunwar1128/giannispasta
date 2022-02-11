@@ -5,9 +5,10 @@
     src: url("Chronicle\ Display\ Italic.otf");
 }
 
-/* ::-webkit-scrollbar-track{
-    z-index: 1000047;
-} */
+@font-face {
+    font-family: 'Museo Sans 700';
+    src: url("Museo\ Sans\ 700.ttf");
+}
 
 
 /* Title Section */
@@ -63,7 +64,18 @@
 }
 
 .offcanvas-body {
+    text-transform: uppercase;
     padding: 75px 0;
+    font-family: 'Museo Sans 700';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    margin: 25px 25px 0 25px
+}
+
+.offcanvas-body a{
+    padding: 11px;
 }
 
 .offcanvasOffField {
