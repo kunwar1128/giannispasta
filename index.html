@@ -33,6 +33,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
+
 </head>
 
 <body>
@@ -52,26 +53,21 @@
                         <div class="offcanvasOnField">
                             <div class="offcanvas-body">
                                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                    <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                                        aria-controls="offcanvasNavbar">
+                                    <li class="nav-item" data-bs-toggle="offcanvas">
                                         <a onclick="myFunction()" class="nav-link active" aria-current="page"
                                             href="#">Home</a>
                                     </li>
-                                    <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                                        aria-controls="offcanvasNavbar">
-                                        <a onclick="myFunction()" class="nav-link" href="#middle">The Gastronomy</a>
+                                    <li class="nav-item" data-bs-toggle="offcanvas">
+                                        <a onclick="myFunction()" class="nav-link" href="#middle_link">The Gastronomy</a>
                                     </li>
-                                    <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                                        aria-controls="offcanvasNavbar">
+                                    <li class="nav-item" data-bs-toggle="offcanvas">
                                         <a onclick="myFunction()" class="nav-link" href="#footer">Contact Us</a>
                                     </li>
-                                    <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                                        aria-controls="offcanvasNavbar">
+                                    <li class="nav-item" data-bs-toggle="offcanvas">
                                         <a onclick="myFunction()" class="nav-link" href="#">Menu</a>
                                     </li>
-                                    <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                                        aria-controls="offcanvasNavbar">
-                                        <a onclick="myFunction()" class="nav-link" href="#">Catering</a>
+                                    <li class="nav-item" data-bs-toggle="offcanvas">
+                                        <a onclick="myFunction()" class="nav-link" href="#testing">Catering</a>
                                     </li>
                                 </ul>
                             </div>
@@ -95,6 +91,9 @@
         </div>
 
     </section>
+
+    <!-- This section is to fix the scrolling issue of navbar links (anchors) -->
+    <section id="middle_link"></section>
 
     <section id="middle">
         <picture>
@@ -123,6 +122,10 @@
         <p>there has been a</p>
     </section>
 
+    <section id="testing">
+        <p>HIII</p>
+    </section>
+
 
     <script>
         var forEach = function (t, o, r) {
@@ -144,7 +147,38 @@
         function myFunction() {
             document.getElementById("offcanvasClose").classList.remove("is-active");
         }
+
+        
+
+        // function home() {
+        //     var element = document.getElementById("title");
+        //     element.scrollIntoView({behavior: "smooth"});
+        //     document.getElementById("offcanvasClose").classList.remove("is-active");
+        // }
+
+        // function middle_link() {
+        //     var element = document.getElementById("middle_link");
+        //     element.scrollIntoView({behavior: "smooth"});
+        //     document.getElementById("offcanvasClose").classList.remove("is-active");
+        // }
+
+        // function footer() {
+        //     var element = document.getElementById("footer");
+        //     element.scrollIntoView({behavior: "smooth"});
+        //     document.getElementById("offcanvasClose").classList.remove("is-active");
+        // }
+
+        // function testing() {
+        //     var element = document.getElementById("testing");
+        //     element.scrollIntoView({behavior: "smooth"});
+        //     document.getElementById("offcanvasClose").classList.remove("is-active");
+        // }
+
     </script>
+
+    
+
+    
 
 </body>
 
