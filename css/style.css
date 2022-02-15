@@ -1,4 +1,8 @@
 /* Body */
+html{
+    /* scroll-behavior: smooth; */
+    /* scroll-padding-bottom: 500px; */
+}
 
 @font-face {
     font-family: Chronicle;
@@ -9,6 +13,14 @@
     font-family: 'Museo Sans 700';
     src: url("Museo\ Sans\ 700.ttf");
 }
+
+/* [id]::before {
+    content: '';
+    display: block;
+    height:      75px;
+    margin-top: -75px;
+    visibility: hidden;
+  } */
 
 
 /* Title Section */
@@ -49,7 +61,8 @@
     background-color: rgba(0, 0, 0, 0);
     border: none;
     width: 100vw;
-    transition-duration: .4s;
+    transition-duration: .8s;
+    /* transition-delay: .3s; */
     transform: translateX(-320px);/*to slide out offcanvas 320px*/ 
 }
 
@@ -83,11 +96,11 @@
     flex: 1;  /* grow */
 }
 
+/* Hamburger Button does's highlight after clicking */
 #offcanvasClose:focus {
     outline: 0;
 }
 
-/* Hamburger Button does's highlight after clicking */
 .slide-opened body {
     overflow: hidden;
 }
@@ -189,7 +202,14 @@
 /* Footer Section */
 
 #footer {
-    background-color: green;
+    background-color: red;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+#testing{
+    background-color: gray;
     height: 100vh;
     position: sticky;
     top: 0;
