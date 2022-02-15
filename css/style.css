@@ -1,8 +1,5 @@
 /* Body */
-html{
-    /* scroll-behavior: smooth; */
-    /* scroll-padding-bottom: 500px; */
-}
+
 
 @font-face {
     font-family: Chronicle;
@@ -14,13 +11,7 @@ html{
     src: url("Museo\ Sans\ 700.ttf");
 }
 
-/* [id]::before {
-    content: '';
-    display: block;
-    height:      75px;
-    margin-top: -75px;
-    visibility: hidden;
-  } */
+
 
 
 /* Title Section */
@@ -199,20 +190,72 @@ html{
 
 
 
-/* Footer Section */
+/* About Us */
 
-#footer {
-    background-color: red;
+#about_us{
+    background-color: white;
     height: 100vh;
     position: sticky;
     top: 0;
 }
 
-#testing{
-    background-color: gray;
+
+.about_us_body {
+    text-align: center;
+    height: 100vh;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Kurale', serif;
+    font-style: italic;
+    color: wheat;
+}
+
+.about_us_body h1{
+    letter-spacing: 0.2em;
+    padding-bottom: 20px;
+}
+
+.about_us_body p{
+    /* font-size: 16px; */
+}
+
+
+
+
+/* Find Us Section */
+
+#find_us{
+    background-color: silver;
     height: 100vh;
     position: sticky;
     top: 0;
+}
+
+.follow_us{
+    height: 15vh;
+    background-color: gray;
+}
+
+.find_us_body{
+    height: 85vh;
+}
+
+.left_find_us{
+    padding-top: 5vh;
+}
+
+
+
+.right_find_us{
+    background-color: white;
+}
+
+#gmap_canvas{
+    padding: 0;
+    margin: 0;
+    width: 100vh;
+    height: 85vh;
 }
 
 
@@ -277,5 +320,11 @@ html{
 
     .gastronomy-footer{
         font-size: 12px;
+    }
+
+    /* About Us */
+
+    .about_us_body{
+        max-width: 390px;
     }
 }
