@@ -77,7 +77,8 @@
 .offcanvas-body {
     text-transform: uppercase;
     padding: 75px 0;
-    font-family: 'Museo Sans 700';
+    /* font-family: 'Museo Sans 700'; */
+    font-family: 'Heebo', sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 14px;
@@ -232,39 +233,51 @@
 
 /* Find Us Section */
 
+.spacing_find_us{height: 2vh;}
+
 #find_us{
-    background-color: #f5ffec;
     height: 100vh;
     position: sticky;
     top: 0;
 }
 
 .follow_us{
-    height: 15vh;
-    background-color: #d5d5d5;
+    height: 10vh;
+    background: linear-gradient(360deg,#e9fbcf 10%,#1d7d8e 200%); 
+    border-radius: 100px;
+    margin-bottom: 3vh;
 }
 
-/* .spacing_follow_us{
-    height: 40px;
+/* .background_image_3 {
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    z-index: -5;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    right: 0px;
+    opacity: 0.8;
 } */
 
 .follow_us .row{
-    height: 15vh;
+    height: 10vh;
 }
 
 .instagram, .facebook{
     display: flex;
-    height: 15vh;
+    height: 10vh;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    border-radius: 100px;
 }
 
 .instagram:hover{
-    background-color: #FCAF45;
+    background-color: rgba(252, 175, 69, 0.85);
 }
 .facebook:hover{
-    background-color: #4267B2;
+    background-color: rgba(66, 103, 178, 0.85);
 }
 
 .instagram > img,.facebook > img{
@@ -277,6 +290,10 @@
 .instagram > p, .facebook > p{
     margin-bottom: 0;
     color: black;
+    font-family: 'Kurale', serif;
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 40px;
 }
 
 
@@ -288,19 +305,46 @@
 .left_find_us{
     padding-top: 5vh;
     height: 85vh;
+    background-color: #CAFFC3;
+    /* border-radius: 100px; */
+    font-family: 'Kurale', serif;
+}
+
+.left_find_us h3{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+.left_find_us h5{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.left_find_us .f_u_g{
+    line-height: 20px;
+}
+.left_find_us p{
+    font-size: 14px;
+}
+.left_find_us hr{
+    width: 265px;
+}
+.left_find_us td{
+    padding-left: 25px;
 }
 
 
 
 .right_find_us{
     background-color: white;
+    /* border-radius: 100px; */
 }
 
 #gmap_canvas{
     padding: 0;
     margin: 0;
-    width: 100vh;
+    width: 100%;
     height: 85vh;
+    /* border-radius: 100px; */
 }
 
 
@@ -388,5 +432,16 @@
 
     #gmap_canvas{
         height: 60vh;
+    }
+}
+
+@media (max-width: 386px) {
+
+    /* Find Us */
+    .find_us_body hr{
+        width: 235px;
+    }
+    .find_us_body th,td{
+        font-size: 14px;
     }
 }
