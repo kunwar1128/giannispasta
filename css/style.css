@@ -21,6 +21,10 @@
 
 /* Navbar */
 
+.navbar{
+    pointer-events: none; /* prohibits blocking the links */
+}
+
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
@@ -28,6 +32,7 @@
 
 .logo-image {
     width: 8em;
+    pointer-events: all;
 }
 
 .navbar-brand {
@@ -42,6 +47,7 @@
 
 .hamburger {
     z-index: 1046;
+    pointer-events: all;
 }
 
 
@@ -49,6 +55,7 @@
 /* Offcanvas */
 
 .offcanvas {
+    pointer-events: all;
     background-color: rgba(0, 0, 0, 0);
     border: none;
     width: 100vw;
@@ -226,7 +233,7 @@
 /* Find Us Section */
 
 #find_us{
-    background-color: silver;
+    background-color: #f5ffec;
     height: 100vh;
     position: sticky;
     top: 0;
@@ -234,8 +241,45 @@
 
 .follow_us{
     height: 15vh;
-    background-color: gray;
+    background-color: #d5d5d5;
 }
+
+/* .spacing_follow_us{
+    height: 40px;
+} */
+
+.follow_us .row{
+    height: 15vh;
+}
+
+.instagram, .facebook{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.instagram:hover{
+    background-color: #FCAF45;
+}
+.facebook:hover{
+    background-color: #4267B2;
+}
+
+.instagram > img,.facebook > img{
+    height: 5vh;
+    float: left;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.instagram > p, .facebook > p{
+    margin-bottom: 0;
+    color: black;
+}
+
+
 
 .find_us_body{
     height: 85vh;
@@ -243,6 +287,7 @@
 
 .left_find_us{
     padding-top: 5vh;
+    height: 85vh;
 }
 
 
@@ -257,6 +302,16 @@
     width: 100vh;
     height: 85vh;
 }
+
+
+/* Footer */
+
+/* #footer{
+    height: 20vh;
+    background-color: red;
+    position: absolute;
+    width: 100%;
+} */
 
 
 
@@ -326,5 +381,12 @@
 
     .about_us_body{
         max-width: 390px;
+    }
+
+
+    /* Find Us */
+
+    #gmap_canvas{
+        height: 60vh;
     }
 }
