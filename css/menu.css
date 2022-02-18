@@ -1,0 +1,70 @@
+body{
+    background-color: gray;
+}
+
+.row{
+    margin: 50px auto 0 auto;
+    width: 100%;
+}
+
+h1{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+
+.card{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img{
+    border-radius: 30px 30px 0 0;
+}
+
+small{
+    text-align: right;
+    padding: 0 50px 20px 0;
+}
+
+@media  (max-width: 1400px) {
+
+    /* Card */
+    .card{
+        height: 375px;
+        width: 250px;
+        border-radius: 30px;
+    }
+
+}
+
+@media  (max-width: 1200px) {
+
+    /* Card */
+    .card{
+        height: 414px;
+        width: 276px;
+        border-radius: 30px;
+    }
+
+}
+
+@media  (max-width: 992px) {
+
+    /* Card */
+    .card{
+        height: 315px;
+        width: 210px;
+        border-radius: 30px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+
+}
