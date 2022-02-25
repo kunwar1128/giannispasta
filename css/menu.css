@@ -15,12 +15,14 @@
 
 .menu_legend{
     position: sticky;
-    top: 15px;
+    top: 0;
     z-index: 2;
 }
 #navbar{
     width: 100%;
     height: 50px;
+    margin-top: 18px;
+    padding-top: 10px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 5px 5px 5px rgb(228, 247, 253);
@@ -39,7 +41,7 @@
     margin-right: auto;
 }
 .navbar-item{
-    min-width: 120px;
+    padding: 0 30px;
     height: 40px;
     text-align: center;
 }
@@ -67,11 +69,14 @@
 .category{
     background-color: rgb(228, 247, 253);
     position: sticky;
-    top: 65px;
+    height: 122px;
+    top: 0px;
     z-index: 1;
+    padding-top: 73px;
     margin: 90px auto 45px auto;
     text-align: center;
     font-family: 'Kurale', serif;
+    box-shadow: 5px 5px 5px rgb(228, 247, 253);
 }
 
 
@@ -90,6 +95,15 @@
 small{
     text-align: right;
     padding: 0 50px 20px 0;
+}
+
+@media (min-width: 768px){
+
+     /* Navbar Top */
+
+    .navbar{
+        margin-top: 7px;
+    }
 }
 
 @media (min-width: 992px){
@@ -149,6 +163,18 @@ small{
 
 }
 
+@media (max-width: 1460px) and (min-width: 1400px),
+        (max-width: 1270px) and (min-width: 1200px),
+        (max-width: 1090px) and (min-width: 992px),
+        (max-width: 855px) and (min-width: 768px){
+
+    #navbar{
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media (max-width:768px) and (min-width: 576px){
 
     /* Welcome */
@@ -158,15 +184,23 @@ small{
 }
 
 @media (max-width:767px){
+
+    /* Navbar Top */
+
+    .navbar{
+        padding: 0;
+    }
+
     /* Menu Navbar */
 
     #navbar{
-        width: 100%;
-        /* height: 100px; */
-        margin-top: 36px;
+        margin-top: 50px;
         padding-top: 10px;
-        background-color: white;
         align-items: center;
+    }
+
+    .navbar-item{
+        padding: 0 25px;
     }
 
     /* Menu itself */
@@ -180,6 +214,12 @@ small{
 
 @media (max-width: 575px){
 
+
+    /* Navbar for Menu */
+
+    .navbar-item{
+        padding: 0 20px;
+    }
     
     /* Card */
     .card{
@@ -191,5 +231,11 @@ small{
     }
     .card-text{
         font-size: 14px;
+    }
+
+    /* Menu itself */
+
+    .category{
+        padding-top: 10px;
     }
 }
