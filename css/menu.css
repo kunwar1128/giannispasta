@@ -95,13 +95,13 @@ small{
     padding: 0 50px 20px 0;
 }
 
-@media (min-width: 768px){
+@media (min-width: 1200px){
 
-     /* Navbar Top */
+    /* Navbar Top */
 
-    .navbar{
-        margin-top: 7px;
-    }
+   .navbar-start{
+       justify-content: center;
+   }
 }
 
 @media (min-width: 992px){
@@ -119,6 +119,18 @@ small{
         background: rgb(14, 167, 228); 
       }
 }
+
+@media (min-width: 768px){
+
+    /* Navbar Top */
+
+   .navbar{
+       margin-top: 7px;
+   }
+}
+
+
+
 
 @media  (max-width: 1400px) {
 
