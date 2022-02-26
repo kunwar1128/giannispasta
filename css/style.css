@@ -336,16 +336,15 @@
 
 
 .right_find_us{
-    /* background-color: white; */
     border-radius: 10px;
     padding: 0;
     position: relative;
 }
 
 .right_find_us .row{
-    height: 100%;
     width: 100%;
 }
+
 
 #gmap_canvas{
     position: absolute;
@@ -369,7 +368,6 @@
     font-size: 120px;
     text-align: center;
     padding-top: 175px;
-    /* color: #CAFFC3; */
     color: white;
     opacity: 50%;
     -webkit-transition: opacity 0.15s ease-in;
@@ -391,7 +389,6 @@
     text-transform: uppercase;
     font-size: 12px;
     padding-top: 10px;
-    padding-bottom: 150px;
 }
 
 .g_maps_open:hover p{
