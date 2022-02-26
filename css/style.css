@@ -497,7 +497,7 @@
     }
 }
 
-@media (max-width: 386px) {
+@media (max-width: 575px) {
 
     /* Find Us */
     .find_us_body hr{
