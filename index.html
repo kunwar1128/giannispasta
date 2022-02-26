@@ -194,7 +194,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right_find_us col-md-6 col-12 order-1 order-md-2">
+                <div id="right_find_us" class="right_find_us col-md-6 col-12 order-1 order-md-2">
                     <div class="row">
                         <div><img id="gmap_canvas" src="images/maps.png" alt="maps"></div>
                         <a class="g_maps_open" href="https://goo.gl/maps/wJWFhkK5AtBhMUTk7" target="_blank">
@@ -285,6 +285,11 @@
             }
 
         })
+
+
+
+        var y = document.getElementById("gmap_canvas").height;
+        document.getElementById("right_find_us").style.height = y+"px";
 
     </script>
 
