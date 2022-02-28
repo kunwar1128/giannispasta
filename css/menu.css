@@ -88,11 +88,33 @@
 
 .card img{
     border-radius: 50px 50px 0 0;
+    width: 100%;
+    height: 50%;
+}
+
+#beverages img{
+    width: 100%;
+    height: 70%;
+}
+
+.veg_card{
+    margin-bottom: 0;
+}
+
+.veg{
+    font-size: medium;
+    color: rgb(3, 160, 3);
+}
+
+.card .small_text{
+    font-size: 13px;
 }
 
 small{
     text-align: right;
     padding: 0 50px 20px 0;
+    color: rgb(197, 1, 1);
+    font-weight: 600;
 }
 
 @media (min-width: 1200px){
