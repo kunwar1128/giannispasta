@@ -368,7 +368,8 @@
     width: 100%;
     font-size: 120px;
     text-align: center;
-    padding-top: 175px;
+/*     padding-top: 175px; */
+    padding-top: 25%;
     color: white;
     opacity: 50%;
     -webkit-transition: opacity 0.15s ease-in;
