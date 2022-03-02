@@ -77,6 +77,15 @@
     box-shadow: 5px 5px 5px rgb(228, 247, 253);
 }
 
+.category h1{
+    margin-bottom: 0;
+}
+.category p{
+    font-size: 14px;
+    background-color: rgb(228, 247, 253);
+    box-shadow: 5px 5px 5px rgb(228, 247, 253);
+}
+
 
 .card{
     height: 400px;
@@ -106,7 +115,13 @@
     color: rgb(3, 160, 3);
 }
 
-.card .small_text{
+.small_text .card-body{
+    padding-bottom: 0;
+}
+.small_text h5{
+    font-size: medium;
+}
+.small_text p{
     font-size: 13px;
 }
 
