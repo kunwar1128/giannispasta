@@ -260,12 +260,17 @@ small{
         height: 55px;
         padding-top: 8px;
     }
+    .category_with_text{
+        top: -10px;
+    }
 
     .category_with_text h1{
+        padding-top: 10px;
         line-height: 18px;
     }
     .category_with_text p{
         margin-top: 10px;
+        padding-bottom: 15px;
         line-height: 0px;
         font-size: 12px;
         background-color: rgb(228, 247, 253);
