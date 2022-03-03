@@ -50,7 +50,7 @@
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="logo-image img-fluid" src="images/giannis-logo.png" alt="Gianni's"></a>
+                <a class="navbar-brand" href="index.html"><img class="logo-image img-fluid" src="images/giannis-logo.png" alt="Gianni's"></a>
                 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-entire-field">
                         <div class="offcanvasOnField">
@@ -333,16 +333,35 @@
                     
                         <div class="col">
                             <div class="card">
-                                <img src="images/food/pizza/design_your_own.gif" class="" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Design your own</h5>
-                                    <p class="card-text">Tomato sauce cheese $15.95 + any toppings</p>
+                                <!-- <img src="images/food/pizza/design_your_own.gif" class="" alt="..."> -->
+                                <div class="card-body card_text_only">
+                                    <h5 class="card-title card_text_center">Design your own</h5>
+                                    <p class="card-text">Tomato sauce cheese <span class="card_inline_adj">$15.95</span> + any toppings:</p>
+                                    <p class="card-text"><span class="card_inline_adj">$3.00</span> items: Bacon, ham, pepperoni, sun dried tomato, zucchini, raosted peppers, mushrooms,
+                                        green peppers, onions, hot peppers, olives and extra cheese</p>
+                                    <p class="card-text"><span class="card_inline_adj">$4.00</span> items: Chicken, shrimp, anchovies, sausage</p>
+                                    
+
                                 </div>
-                                <small>-/$30.95</small>
+                                <small class="price_adj">-/$15.95 <span class="color_black">+ any toppings</span></small>
                             </div>
                         </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <!-- <img src="images/food/pizza/design_your_own.gif" class="" alt="..."> -->
+                                <div class="card-body card_text_only card_text_center card_more_adj">
+                                    <h5 class="card-title">On the Side:</h5>
+                                    <p class="card-text">Spicy olive oil</p>
+                                    <p class="card-text">Garlic dipping sauce</p>
+                                </div>
+                                <small>-/$1.50 each</small>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
+
                 <div id="sandwiches" class="container">
                     <div class="row category">
                         <h1>Sandwiches</h1>
