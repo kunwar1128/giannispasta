@@ -129,6 +129,44 @@ small{
     font-weight: 600;
 }
 
+.card_text_only{
+    padding-bottom: 0px;
+}
+.card_text_only .card-title{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+.card_text_only .card-text{
+    font-size: 15px;
+    border-bottom: 1px solid rgb(0, 162, 255);
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+
+.card_text_center{
+    text-align: center;
+}
+
+.price_adj{
+    padding-right: 25px;
+    font-size: 12px;
+}
+
+.color_black{
+    color: black;
+}
+.card_inline_adj{
+    color: rgb(197, 1, 1);
+    font-weight: 600;
+}
+
+.card_more_adj .card-text{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
 @media (min-width: 1200px){
 
     /* Navbar Top */
@@ -177,6 +215,13 @@ small{
         width: 250px;
     }
 
+    .card_text_only .card-title{
+        font-size: 18px;
+    }
+    .card_text_only .card-text{
+        font-size: 13px;
+    }
+
 }
 
 @media  (max-width: 1200px) {
@@ -185,6 +230,13 @@ small{
     .card{
         height: 414px;
         width: 276px;
+    }
+
+    .card_text_only .card-title{
+        font-size: 20px;
+    }
+    .card_text_only .card-text{
+        font-size: 14px;
     }
 
 }
@@ -208,6 +260,15 @@ small{
         font-size: 12px;
     }
     .small_text p{
+        font-size: 12px;
+    }
+
+    .card_text_only .card-title{
+        padding-top: 0px;
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+    .card_text_only .card-text{
         font-size: 12px;
     }
 
@@ -297,6 +358,16 @@ small{
     }
     .card-text{
         font-size: 14px;
+    }
+
+    .card_text_only .card-title{
+        padding-top: 5px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .card_text_only .card-text{
+        font-size: 12px;
     }
 
     /* Menu itself */
