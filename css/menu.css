@@ -161,9 +161,14 @@ small{
     font-weight: 600;
 }
 
-.card_more_adj .card-text{
+.card_more_adj_1 .card-text{
     padding-top: 10px;
     padding-bottom: 15px;
+}
+
+.card_more_adj_2 .card-title{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -272,6 +277,10 @@ small{
         font-size: 12px;
     }
 
+    .card_more_adj_2 .card-title{
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 1460px) and (min-width: 1400px),
@@ -368,6 +377,10 @@ small{
     }
     .card_text_only .card-text{
         font-size: 12px;
+    }
+
+    .card_more_adj_2 .card-title{
+        margin-bottom: 30px;
     }
 
     /* Menu itself */
