@@ -318,7 +318,7 @@
 .left_find_us h3{
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 .left_find_us h5{
     font-size: 14px;
@@ -335,6 +335,16 @@
 }
 .left_find_us td{
     padding-left: 25px;
+}
+
+.find_us_bold{
+    font-weight: 600;
+}
+#find_us_adj{
+    letter-spacing: 0.07em;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-style: italic;
 }
 
 
