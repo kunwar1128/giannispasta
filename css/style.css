@@ -542,3 +542,32 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 773px) and (min-width: 768px),
+        (max-width: 280px){
+
+    /* Find Us */
+    
+    .left_find_us h3{
+        padding-top: 15px;
+    }
+    .left_find_us h5{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .left_find_us hr{
+        width: 180px;
+    }
+    .left_find_us th{
+        font-size: 12px;
+    }
+    .left_find_us td{
+        padding-left: 5px;
+        font-size: 11px;
+    }
+    
+    #find_us_adj{
+        font-size: 11px;
+        width: 200px;
+    }
+}
