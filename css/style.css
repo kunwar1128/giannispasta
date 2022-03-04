@@ -425,6 +425,25 @@
 
 }
 
+@media (max-width: 2000px){
+    
+
+    /* Middle Section */
+
+    .gastronomy-heading{
+        font-size: 15px;
+    }
+    
+    .gastronomy-text{
+        font-size: 30px;
+        max-width: 450px;
+    }
+
+    .gastronomy-footer{
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 1200px) {
 
     /* Find Us Section */
@@ -478,7 +497,7 @@
 
     .gastronomy-text{
         font-size: 20px;
-        max-width: 390px;
+        max-width: 350px;
     }
 
     .gastronomy-footer{
