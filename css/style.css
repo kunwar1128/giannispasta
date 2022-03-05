@@ -147,6 +147,10 @@
     font-style: italic;
 }
 
+.welcome-text2-adj{
+    letter-spacing: -2px;
+}
+
 
 
 
@@ -327,6 +331,9 @@
 .left_find_us .f_u_g{
     line-height: 20px;
 }
+.left_find_us .f_u_g-adj{
+    letter-spacing: -1px;
+}
 .left_find_us p{
     font-size: 14px;
 }
@@ -497,6 +504,10 @@
 
     .welcome-text2{
         font-size: 13px;
+    }
+
+    .welcome-text2-adj{
+        letter-spacing: -1px;
     }
 
     /* Middle Section */
