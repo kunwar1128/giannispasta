@@ -172,6 +172,18 @@ small{
 }
 
 
+
+
+
+/* Hiding the price for all the items in the menu */
+small{
+    visibility: hidden;
+}
+
+
+
+
+
 @media (min-width: 1200px){
 
     /* Navbar Top */
