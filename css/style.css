@@ -567,7 +567,8 @@
         padding-bottom: 10px;
     }
     .left_find_us hr{
-        width: 180px;
+        width: 200px;
+        /* was 180px */
     }
     .left_find_us th{
         font-size: 12px;
