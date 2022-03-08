@@ -547,7 +547,7 @@
 
     /* Find Us */
     .find_us_body hr{
-        width: 235px;
+        width: 250px;
     }
     .find_us_body th,td{
         font-size: 14px;
@@ -567,8 +567,7 @@
         padding-bottom: 10px;
     }
     .left_find_us hr{
-        width: 200px;
-        /* was 180px */
+        width: 180px;
     }
     .left_find_us th{
         font-size: 12px;
