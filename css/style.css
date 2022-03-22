@@ -155,54 +155,6 @@
 
 
 
-
-/* Middle Section */
-
-#middle {
-    height: 100vh;
-    position: sticky;
-    top: 0;
-}
-
-.background_image_2 {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: -5;
-    margin: 0;
-    padding: 0;
-    object-fit: cover;
-}
-
-.gastronomy{
-    text-align: center;
-    height: 100vh;
-    padding-top: 20px;
-}
-
-.gastronomy-heading{
-    font-size: 16px;
-    font-family: 'Heebo', sans-serif;
-    letter-spacing: 0.2em;
-    font-weight: bolder;
-    padding-bottom: 20px;
-}
-
-.gastronomy-text{
-    font-size: 40px;
-    font-family: Chronicle;
-    font-weight: bolder;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.gastronomy-footer{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-
 /* About Us */
 
 #about_us{
@@ -221,7 +173,8 @@
     margin-right: auto;
     font-family: 'Kurale', serif;
     font-style: italic;
-    color: wheat;
+    /* color: wheat; */
+    color: black;
 }
 
 .about_us_body h1{
@@ -229,9 +182,66 @@
     padding-bottom: 20px;
 }
 
-.about_us_body p{
-    /* font-size: 16px; */
+
+
+
+
+/* tetestimonial Section */
+
+#tetestimonial {
+    height: 100vh;
+    position: sticky;
+    top: 0;
 }
+
+.background_image_2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -5;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.tetestimonial{
+    text-align: center;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+
+.tetestimonial-heading{
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+
+.tetestimonial-text{
+    font-size: 20px;
+    font-family: 'Kurale', serif;
+    font-style: italic;
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.g-t-2,.g-t-3{
+    max-width: 490px;
+}
+
+.tetestimonial-footer{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family:'Kurale', serif;
+    font-weight: 600;
+}
+
+.tetestimonial-footer span{
+    color: gold;
+}
+
 
 
 
@@ -317,6 +327,7 @@
     background-color: #CAFFC3;
     border-radius: 10px;
     font-family: 'Kurale', serif;
+    font-style: italic;
 }
 
 .left_find_us h3{
@@ -352,6 +363,12 @@
     font-size: 13px;
     text-transform: uppercase;
     font-style: italic;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.l_f_u_adj{
+    max-width: 265px;
 }
 
 
@@ -380,17 +397,21 @@
 }
 
 .g_maps_open{
-    height: 100%;
+    position: absolute;
     width: 100%;
     text-decoration: none;
+    height: 100%;
+}
+.g_maps_open div{
+    position: absolute;
+    width: 100%;
+    top: 35%;
 }
 
 .g_maps_open i{
     width: 100%;
     font-size: 120px;
     text-align: center;
-    /* padding-top: 175px; */
-    padding-top: 25%;
     color: white;
     opacity: 50%;
     -webkit-transition: opacity 0.15s ease-in;
@@ -420,18 +441,6 @@
 
 
 
-/* Footer */
-
-/* #footer{
-    height: 20vh;
-    background-color: red;
-    position: absolute;
-    width: 100%;
-} */
-
-
-
-
 
 @media (min-width: 768px) {
 
@@ -440,25 +449,40 @@
         margin: 1.6em 0;
     }
 
+    /* About Us */
+    .about_us_body{
+        font-size: 18px;
+    }
+
+}
+
+
+@media (min-width: 2000px) {
+
+    /* About Us */
+    .about_us_body{
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 2000px){
     
 
-    /* Middle Section */
+    /* tetestimonial Section */
 
-    .gastronomy-heading{
-        font-size: 15px;
+    /* .tetestimonial-heading{
+        font-size: 100px;
     }
     
-    .gastronomy-text{
+    .tetestimonial-text{
         font-size: 30px;
-        max-width: 450px;
+        max-width: 470px;
     }
 
-    .gastronomy-footer{
+    .tetestimonial-footer{
         font-size: 14px;
-    }
+    } */
 }
 
 @media (max-width: 1200px) {
@@ -510,36 +534,52 @@
         letter-spacing: -1px;
     }
 
-    /* Middle Section */
-
-    .gastronomy-heading{
-        font-size: 14px;
-    }
-
-    .gastronomy-text{
-        font-size: 20px;
-        max-width: 350px;
-    }
-
-    .gastronomy-footer{
-        font-size: 12px;
-    }
 
     /* About Us */
 
     .about_us_body{
         max-width: 390px;
     }
+    
+
+    /* tetestimonial Section */
+
+    .tetestimonial-heading{
+        font-size: 75px;
+    }
+
+    .tetestimonial-text{
+        font-size: 18px;
+        max-width: 350px;
+    }
+
+    .tetestimonial-footer{
+        font-size: 18px;
+    }
 
 
-    /* Find Us */
+    /* Find Us Section */
+
+    #find_us{
+        height: 115vh;
+    }
+    .find_us_body{
+        height: 100vh;
+    }
+    .left_find_us{
+        height: 100vh;
+    }
 
     #gmap_canvas{
-        height: 60vh;
+        /* height: 85vh; */
+    }
+
+    .g_maps_open div{
+        top: 25vh;
     }
 
     .g_maps_open i{
-        padding-top: 115px;
+        /* padding-top: 115px; */
     }
 }
 
@@ -552,6 +592,25 @@
     .find_us_body th,td{
         font-size: 14px;
     }
+}
+
+@media (max-width: 475px) {
+
+    /* tetestimonial Section */
+
+    .tetestimonial-heading{
+        font-size: 50px;
+    }
+
+    .tetestimonial-text{
+        font-size: 16px;
+        max-width: 270px;
+    }
+
+    .tetestimonial-footer{
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 773px) and (min-width: 768px),
