@@ -35,6 +35,7 @@
     pointer-events: all;
 }
 
+
 .navbar-brand {
     margin-left: auto;
     margin-right: auto;
@@ -138,6 +139,11 @@
     font-family: 'Kurale', serif;
     font-size: 70px;
     font-style: italic;
+    margin-top: -5%;
+}
+
+.logo-image-2 {
+    width: 30em;
 }
 
 .welcome-text2{
@@ -483,6 +489,17 @@
     .tetestimonial-footer{
         font-size: 14px;
     } */
+
+    /* Header Welcome */
+
+    .welcome-text{
+        font-size: 55px;
+    }
+
+    .logo-image-2 {
+        width: 28em;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -510,6 +527,15 @@
         padding-bottom: 25vh;
     }
 
+    .welcome-text{
+        font-size: 50px;
+        margin-top: 15%;
+    }
+
+    .logo-image-2 {
+        width: 23em;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -524,6 +550,11 @@
 
     .welcome-text{
         font-size: 32px;
+        margin-top: 15%;
+    }
+
+    .logo-image-2 {
+        width: 18em;
     }
 
     .welcome-text2{

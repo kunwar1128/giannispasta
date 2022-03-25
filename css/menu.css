@@ -2,8 +2,17 @@
 /* Welcome section */
 
 .welcome{
-    top: -70px;
+    top: -150px;
 }
+
+.logo-image-2{
+    /* margin-top: -190px; */
+}
+
+.welcome-text{
+    padding-top: 8%;
+}
+
 
 
 
@@ -265,6 +274,14 @@ small{
         top: 0px;
     }
 
+    .logo-image-2{
+    }
+
+    .welcome-text{
+        margin-top: 0;
+        padding-top: 7%;
+    }
+
     /* Card */
     .card{
         height: 315px;
@@ -361,6 +378,13 @@ small{
 }
 
 @media (max-width: 575px){
+
+
+    /* Welcome */
+
+    .logo-image-2{
+        width: 15em;
+    }
 
 
     /* Navbar for Menu */

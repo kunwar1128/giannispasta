@@ -1,0 +1,234 @@
+/* Body */
+
+@font-face {
+  font-family: Chronicle;
+  src: url("Chronicle\ Display\ Italic.otf");
+}
+
+/* ::-webkit-scrollbar-track{
+  z-index: 1000047;
+} */
+
+
+/* Title Section */
+#title {
+  /* height: 100vh; */
+}
+
+.header-content{
+  height: 100vh;
+}
+
+.background_image_1 {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -5;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+.welcome{
+  height: 100vh;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  /* color: white; */
+}
+
+.welcome-text{
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Kurale', serif;
+  font-size: 70px;
+  font-style: italic;
+}
+
+.welcome-text2{
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Kurale', serif;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.logo-image {
+  width: 8em;
+}
+
+.navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.hamburger {
+  z-index: 1046;
+}
+
+.offcanvas {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 100vw;
+  transition-duration: .6s;
+  transform: translateX(-320px);/*to slide out offcanvas 320px*/ 
+}
+
+.offcanvas-entire-field {
+  display: flex;
+  height: 100vh;
+}
+
+.offcanvasOnField {
+  background-color: white;
+  flex: 0 0 320px; /* do not grow, do not shrink, start at 320px */
+}
+
+.offcanvas-body {
+  padding: 75px 0;
+}
+
+.offcanvasOffField {
+  background-color: rgba(0, 0, 0, 0);
+  flex: 1;  /* grow */
+}
+
+#offcanvasClose:focus {
+  outline: 0;
+}
+.slide-opened body {
+  overflow: hidden;
+}
+
+
+
+/* Middle Section */
+
+#middle {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.background_image_2 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -5;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+.gastronomy{
+  text-align: center;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.gastronomy-heading{
+  font-size: 16px;
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.gastronomy-text{
+  font-size: 40px;
+  font-family: Chronicle;
+  font-weight: bolder;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gastronomy-footer{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* Footer Section */
+
+#footer {
+  background-color: red;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+      margin: 1.6em 0;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  /* Navbar */
+
+}
+
+@media (max-width: 991px) {
+
+  /* Navbar */
+
+  /* Header Welcome */
+
+  .welcome > .col{
+      padding-bottom: 25vh;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  /* Navbar */
+
+  .logo-image {
+      width: 5em;
+  }
+
+  /* Header Welcome */
+
+  .welcome-text{
+      font-size: 32px;
+  }
+
+  .welcome-text2{
+      font-size: 13px;
+  }
+
+  /* Middle Section */
+
+  .gastronomy-heading{
+      font-size: 14px;
+  }
+
+  .gastronomy-text{
+      font-size: 20px;
+      max-width: 390px;
+  }
+
+  .gastronomy-footer{
+      font-size: 12px;
+  }
+}
