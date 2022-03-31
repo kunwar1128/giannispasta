@@ -174,7 +174,7 @@
 .about_us_body {
     text-align: center;
     height: 100vh;
-    max-width: 600px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Kurale', serif;
@@ -457,7 +457,7 @@
 
     /* About Us */
     .about_us_body{
-        font-size: 18px;
+        font-size: 17px;
     }
 
 }
@@ -467,7 +467,7 @@
 
     /* About Us */
     .about_us_body{
-        font-size: 20px;
+        font-size: 19px;
     }
 
 }
@@ -502,7 +502,22 @@
 
 }
 
+@media (max-width: 1400px) {
+
+    /* About Us */
+    .about_us_body{
+        max-width: 800px;
+    }
+
+}
+
 @media (max-width: 1200px) {
+
+    /* About Us */
+    .about_us_body{
+        max-width: 700px;
+        font-size: 16px;
+    }
 
     /* Find Us Section */
 
@@ -569,8 +584,10 @@
     /* About Us */
 
     .about_us_body{
-        max-width: 390px;
+        max-width: 600px;
+        font-size: 14px;
     }
+
     
 
     /* tetestimonial Section */
@@ -627,6 +644,17 @@
 
 @media (max-width: 475px) {
 
+    /* About Us */
+
+    .about_us_body{
+        max-width: 600px;
+        font-size: 13px;
+    }
+
+    .about_us_body h4{
+        font-size: 18px;
+    }
+
     /* tetestimonial Section */
 
     .tetestimonial-heading{
@@ -640,6 +668,16 @@
 
     .tetestimonial-footer{
         font-size: 16px;
+    }
+
+}
+
+@media (max-width: 376px) {
+
+    /* About Us */
+
+    .about_us_body{
+        font-size: 12px;
     }
 
 }
